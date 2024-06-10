@@ -1,10 +1,12 @@
 import React from "react";
-import ApiConnetFirst from "./component/ApiConnetFirst";
+import ApiArray from "./component/ApiArray";
+import ApiObject from "./component/ApiObject";
 
 function App() {
   return (
     <div>
-      <ApiConnetFirst />
+      {/* <ApiArray /> */}
+      <ApiObject />
     </div>
   );
 }
