@@ -1,11 +1,12 @@
-import React from 'react'
+import React from "react";
+import ApiConnetFirst from "./component/ApiConnetFirst";
 
 function App() {
   return (
     <div>
-      App
+      <ApiConnetFirst />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
